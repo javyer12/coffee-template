@@ -16,7 +16,7 @@
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _utils_sum_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./utils/sum.js */ \"./src/utils/sum.js\");\n\nvar hello = 'Hello World';\nconsole.log(hello);\nconsole.log((0,_utils_sum_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(1, 2));\n\n//# sourceURL=webpack://plantilla/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_design_index_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style/design/index.css */ \"./src/style/design/index.css\");\n/* harmony import */ var _style_design_var_styl__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style/design/var.styl */ \"./src/style/design/var.styl\");\n/* harmony import */ var _utils_sum_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./utils/sum.js */ \"./src/utils/sum.js\");\n\n\n\nvar hello = 'Hello World';\nconsole.log(hello);\nconsole.log((0,_utils_sum_js__WEBPACK_IMPORTED_MODULE_2__[\"default\"])(1, 2));\n\n//# sourceURL=webpack://plantilla/./src/index.js?");
 
 /***/ }),
 
@@ -27,6 +27,26 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _uti
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nvar sum = function sum(a, b) {\n  return a + b;\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (sum);\n\n//# sourceURL=webpack://plantilla/./src/utils/sum.js?");
+
+/***/ }),
+
+/***/ "./src/style/design/index.css":
+/*!************************************!*\
+  !*** ./src/style/design/index.css ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://plantilla/./src/style/design/index.css?");
+
+/***/ }),
+
+/***/ "./src/style/design/var.styl":
+/*!***********************************!*\
+  !*** ./src/style/design/var.styl ***!
+  \***********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://plantilla/./src/style/design/var.styl?");
 
 /***/ })
 
