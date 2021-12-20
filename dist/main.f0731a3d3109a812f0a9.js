@@ -1,0 +1,1 @@
+(()=>{"use strict";const o=function(o,l){return o+l};console.log("Hello World"),console.log(o(1,2))})();
