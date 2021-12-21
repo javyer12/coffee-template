@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CopyPlugin = require('copy-webpack-plugin');
 const DotEnv = require('dotenv-webpack');
-
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
 module.exports = {
   entry: "./src/index.js",
@@ -12,7 +12,7 @@ module.exports = {
     filename: "[name].[contenthash].js",
   },
   mode:'development',
-  watch: true,
+  watch: false,
   resolve: {
     extensions: [".js"],
     alias:{
@@ -59,5 +59,12 @@ module.exports = {
         ]
       }), 
       new DotEnv(),
+      new BundleAnalyzerPlugin(),
     ],
+    devServer: {
+      static: path.join(__dirname, 'dist'),
+      compress: true,
+      historyApiFallback: true,
+      port: 9000,
+    }
 };
