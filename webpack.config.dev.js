@@ -12,6 +12,7 @@ module.exports = {
     filename: "[name].[contenthash].js",
   },
   mode:'development',
+  devtool: 'source-map',
   watch: false,
   resolve: {
     extensions: [".js"],
